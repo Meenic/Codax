@@ -11,7 +11,7 @@
    "bugs": {
       "url": "https://github.com/Proxity-S/Codax/issues"
    },
-   "homepage": "https://codax.ml",
+   "homepage": "https://codaxapp.tk",
    "readme": "README.md",
    "dependencies": {
       "@craco/craco": "^6.3.0",
