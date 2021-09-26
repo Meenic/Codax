@@ -1,4 +1,4 @@
-# Frontend of CodaxXXXXXXXXX
+# Frontend of Codax
 
 ## Available Scripts
 
