@@ -1,5 +1,3 @@
-function Footer() {
-   return <div>Footer</div>;
+export default function Footer() {
+  return <div className="h-14 border-t">Footer</div>;
 }
-
-export default Footer;

@@ -2,20 +2,21 @@
 @tailwind components;
 @tailwind utilities;
 
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap");
 
 @layer base {
-   html,
-   body,
-   #root {
-      @apply h-full bg-secondary text-base text-white font-raleway antialiased overflow-hidden;
-   }
+  html,
+  body,
+  #root {
+    @apply h-full bg-secondary text-base text-white font-raleway antialiased;
+  }
 
-   #root {
-      @apply flex flex-col;
-   }
+  #root {
+    @apply flex flex-col;
+  }
 
-   .wrapper {
-      @apply h-full flex;
-   }
+  .wrapper-with-sidebar {
+    width: calc(100% - theme("height.64"));
+    @apply flex flex-col justify-between;
+  }
 }
