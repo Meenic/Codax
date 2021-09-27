@@ -7,11 +7,9 @@ export default function App() {
   return (
     <div className="h-full flex">
       <Sidebar />
-      <div className="wrapper-with-sidebar">
-        <div className="flex-1">
-          <Navbar />
-          <Content />
-        </div>
+      <div className="flex-1 flex flex-col justify-between">
+        <Navbar />
+        <Content />
         <Footer />
       </div>
     </div>

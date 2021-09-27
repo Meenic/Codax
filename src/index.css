@@ -14,9 +14,4 @@
   #root {
     @apply flex flex-col;
   }
-
-  .wrapper-with-sidebar {
-    width: calc(100% - theme("height.64"));
-    @apply flex flex-col justify-between;
-  }
 }
